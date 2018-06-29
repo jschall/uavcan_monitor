@@ -1,0 +1,22 @@
+{
+    "buses": [
+        "slcan0"
+    ],
+    "node_configs": [
+        {
+            "descriptor": {
+                "node_name":"com\\.matternet\\.uwb",
+                "hardware_version":"2\\.[0-9]+",
+                "parameters": {
+                    "SLOT_ID": 0
+                }
+            },
+            "expect_on_buses": ["slcan0","slcan1"],
+            "mandatory": "true",
+            "firmware": "/path/to/firmware.bin",
+            "parameters": {
+                "TX_GAIN": 8.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+[submodule "libuavcan"]
+	path = libuavcan
+	url = git@github.com:UAVCAN/libuavcan.git
